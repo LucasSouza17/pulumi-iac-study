@@ -43,7 +43,7 @@ jobs:
         uses: "pulumi/actions@v6"
         with:
           command: "up"
-          stack-name: "LucasSouza17-org/pulumi-iac-study"
+          stack-name: "pulumi-iac-study"
           cloud-url: s3://lucassouza17-pulumi-state
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
